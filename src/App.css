@@ -152,6 +152,18 @@ a:hover {
   border-bottom: none;
 }
 
+.experience-item ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.experience-item li {
+  padding: 0.3rem 0;
+  line-height: 1.5;
+}
+
 .experience-meta, .education-meta {
   color: #666;
   font-style: italic;

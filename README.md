@@ -1,54 +1,86 @@
-# React + TypeScript + Vite
+# Joycelyne Addo - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React, TypeScript, and Vite. This single-page application showcases my professional experience, projects, education, and skills as a Software Engineer.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Navigation**: Smooth section switching with active state indicators
+- **Professional Sections**:
+  - About Me - Professional summary and background
+  - Experience - Detailed work history at Google, LinkedIn, Amazon, and Virtu Financial
+  - Projects - Featured projects including Spacify and Guess That Function
+  - Education - Academic background from Cornell University
+  - Skills - Technical skills and competencies
+  - Contact - Professional contact information
 
-## Expanding the ESLint configuration
+- **Modern Design**: Clean, professional styling with responsive layout
+- **Single Page Application**: Fast navigation without page reloads
+- **GitHub Pages Deployment**: Automated deployment pipeline
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Live Demo
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+Visit the live portfolio at: [https://yeahitsjoyce.github.io/website](https://yeahitsjoyce.github.io/website)
+
+## 🛠️ Built With
+
+- **React 19** - UI Framework
+- **TypeScript** - Type safety and better development experience
+- **Vite** - Fast build tool and development server
+- **CSS3** - Custom styling with modern CSS features
+- **GitHub Pages** - Hosting and deployment
+
+## 📦 Installation & Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yeahitsjoyce/website.git
+cd website
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+2. Install dependencies:
+```bash
+npm install
 ```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## 🔧 Available Scripts
+
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build the project for production
+- `npm run preview` - Preview the production build locally
+- `npm run lint` - Run ESLint to check code quality
+- `npm run deploy` - Deploy to GitHub Pages
+
+## 📁 Project Structure
+
+```
+src/
+├── App.tsx          # Main application component with routing logic
+├── App.css          # Main application styles
+├── main.tsx         # Application entry point
+├── index.css        # Global styles
+└── assets/          # Static assets
+```
+
+## 🎨 Key Highlights
+
+- **Responsive Design**: Optimized for desktop and mobile viewing
+- **Professional Content**: Showcases internship experiences at top tech companies
+- **Project Showcase**: Features technical projects with live demos and detailed descriptions
+- **Clean Code**: Written in TypeScript with proper linting and code organization
+
+## 📧 Contact
+
+**Joycelyne Addo**
+- LinkedIn: [linkedin.com/in/joycelyne-addo](https://www.linkedin.com/in/joycelyne-addo/)
+- Portfolio: [yeahitsjoyce.github.io/website](https://yeahitsjoyce.github.io/website)
+
+---
+
+*This portfolio website represents my journey as a Software Engineer and showcases the technical skills I've developed through internships at Google, LinkedIn, Amazon, and academic projects at Cornell University.*

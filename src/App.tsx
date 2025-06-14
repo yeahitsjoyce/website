@@ -117,6 +117,44 @@ function App() {
             
             <div className="project-item">
               <div className="project-header">
+                <h3>Guess That Function Website</h3>
+                <div className="project-links">
+                  <span className="project-meta">Apr. 2025</span>
+                </div>
+              </div>
+              <p className="project-meta">Interactive Web Application for Mathematical Function Practice</p>
+              <div className="project-description">
+                <p>
+                  Developed an interactive web application enabling users to practice identifying mathematical functions.
+                  Built comprehensive backend services to handle user management, progress tracking, and dynamic content generation.
+                </p>
+                <div className="project-features">
+                  <h4>Key Achievements:</h4>
+                  <ul>
+                    <li>Built backend services in Node.js/Express and Python to randomly generate functions of varying difficulty, validate user submissions, manage sessions, and track progress</li>
+                    <li>Designed PostgreSQL schema to store user profiles, attempt histories, progress metrics, and leaderboards; created RESTful API endpoints for seamless frontend-backend integration</li>
+                    <li>Added user authentication (JWT) and profile pages showing stats, accuracy rates, and history</li>
+                    <li>Optimized server endpoints and client-side rendering for low latency and scalability; collected usage analytics to iterate on features and enhance engagement</li>
+                  </ul>
+                </div>
+                <div className="project-tech">
+                  <h4>Technologies Used:</h4>
+                  <div className="tech-tags">
+                    <span className="tech-tag">React</span>
+                    <span className="tech-tag">D3.js</span>
+                    <span className="tech-tag">Node.js/Express</span>
+                    <span className="tech-tag">Python</span>
+                    <span className="tech-tag">PostgreSQL</span>
+                    <span className="tech-tag">Docker</span>
+                    <span className="tech-tag">AWS</span>
+                    <span className="tech-tag">GitHub Actions</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="project-item">
+              <div className="project-header">
                 <h3>Spacify: Intelligent Inventory Assistant</h3>
                 <div className="project-links">
                   <span className="project-meta">Oct. 2024</span>
@@ -131,10 +169,8 @@ function App() {
                 <div className="project-features">
                   <h4>Key Achievements:</h4>
                   <ul>
-                    <li>Optimized system performance by reducing latency and securely handling large-scale user data</li>
-                    <li>Enhanced user experience and promoted sustainable living practices</li>
-                    <li>Led technical innovation by integrating Pinata and Salesforce technologies</li>
-                    <li>Laid groundwork for future marketplace expansion with analytics, reminders, and user insights</li>
+                    <li>Optimized system performance by reducing latency and securely handling large-scale user data, enhancing user experience and promoting sustainable living practices</li>
+                    <li>Led technical innovation by integrating Pinata and Salesforce technologies, laying the groundwork for future marketplace expansion with analytics, reminders, and user insights</li>
                   </ul>
                 </div>
                 <div className="project-tech">
@@ -143,86 +179,8 @@ function App() {
                     <span className="tech-tag">Swift</span>
                     <span className="tech-tag">Node.js</span>
                     <span className="tech-tag">Python</span>
-                    <span className="tech-tag">Salesforce</span>
-                    <span className="tech-tag">AI/ML</span>
+                    <span className="tech-tag">Salesforce (blip-image-captioning-large)</span>
                     <span className="tech-tag">Pinata</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-item">
-              <div className="project-header">
-                <h3>Guess That Function</h3>
-                <div className="project-links">
-                  <a href="https://guess-that-function.web.app/" target="_blank" rel="noopener noreferrer" className="project-link live-demo">
-                    🚀 Live Demo
-                  </a>
-                </div>
-              </div>
-              <p className="project-meta">Interactive Mathematical Game</p>
-              <div className="project-description">
-                <p>
-                  An engaging web-based mathematical game that challenges players to guess mathematical functions 
-                  based on input-output test cases. Players analyze patterns in the data to deduce the underlying 
-                  mathematical relationship.
-                </p>
-                <div className="project-features">
-                  <h4>Key Features:</h4>
-                  <ul>
-                    <li>Interactive function guessing gameplay with real-time feedback</li>
-                    <li>Support for various mathematical operations (basic arithmetic, powers, absolute values)</li>
-                    <li>Hint system to guide players when they're stuck</li>
-                    <li>Clean, modern UI with dark mode support</li>
-                    <li>Statistics tracking for player performance</li>
-                    <li>Comprehensive function format guide for user assistance</li>
-                  </ul>
-                </div>
-                <div className="project-tech">
-                  <h4>Technologies Used:</h4>
-                  <div className="tech-tags">
-                    <span className="tech-tag">JavaScript</span>
-                    <span className="tech-tag">HTML/CSS</span>
-                    <span className="tech-tag">Web Development</span>
-                    <span className="tech-tag">Mathematical Logic</span>
-                    <span className="tech-tag">Firebase Hosting</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="project-item">
-              <div className="project-header">
-                <h3>Wave Portal</h3>
-                <div className="project-links">
-                  <span className="project-meta">Jul. 2022</span>
-                </div>
-              </div>
-              <p className="project-meta">Decentralized Blockchain Application</p>
-              <div className="project-description">
-                <p>
-                  Created a full-stack decentralized application allowing users to connect their MetaMask wallet 
-                  and submit "waves" to the Ethereum Blockchain, demonstrating proficiency in blockchain development.
-                </p>
-                <div className="project-features">
-                  <h4>Key Features:</h4>
-                  <ul>
-                    <li>Developed smart contracts in Solidity to store timestamps, public addresses, and messages</li>
-                    <li>Ensured secure and immutable data storage on the blockchain</li>
-                    <li>Built frontend using React and JavaScript with blockchain integration</li>
-                    <li>Integrated with MetaMask wallet for seamless user experience</li>
-                  </ul>
-                </div>
-                <div className="project-tech">
-                  <h4>Technologies Used:</h4>
-                  <div className="tech-tags">
-                    <span className="tech-tag">Solidity</span>
-                    <span className="tech-tag">React</span>
-                    <span className="tech-tag">JavaScript</span>
-                    <span className="tech-tag">HTML</span>
-                    <span className="tech-tag">Foundry</span>
-                    <span className="tech-tag">Ethereum</span>
-                    <span className="tech-tag">Blockchain</span>
                   </div>
                 </div>
               </div>
@@ -238,7 +196,6 @@ function App() {
               <h3>Cornell University, College of Engineering</h3>
               <p className="education-meta">Ithaca, NY</p>
               <p><strong>Bachelor of Science, Computer Science</strong></p>
-              <p><strong>Minor: Applied Mathematics</strong></p>
               <h4>Relevant Coursework:</h4>
               <ul className="course-list">
                 <li>Discrete Structures and Algorithms</li>
@@ -258,56 +215,70 @@ function App() {
 
         {activeSection === 'skills' && (
           <section id="skills">
-            <h2>Skills</h2>
+            <h2>Technical Skills</h2>
             <div className="skills-categories">
               <div className="skills-category">
-                <h3>Programming Languages</h3>
+                <h3>Languages</h3>
                 <ul className="skills-list">
                   <li>Python</li>
                   <li>Java</li>
                   <li>C++</li>
                   <li>JavaScript</li>
-                  <li>Scala</li>
                   <li>Solidity</li>
                   <li>Swift</li>
+                  <li>OCaml</li>
                 </ul>
               </div>
               
               <div className="skills-category">
-                <h3>Technologies & Frameworks</h3>
+                <h3>Databases</h3>
                 <ul className="skills-list">
-                  <li>TensorFlow</li>
-                  <li>React</li>
-                  <li>Node.js</li>
                   <li>PostgreSQL</li>
+                  <li>SQL</li>
+                  <li>NoSQL concepts</li>
+                </ul>
+              </div>
+
+              <div className="skills-category">
+                <h3>Tools/Frameworks</h3>
+                <ul className="skills-list">
+                  <li>Git</li>
+                  <li>Docker</li>
+                  <li>CI/CD</li>
+                  <li>TensorFlow</li>
+                  <li>Jupyter</li>
+                  <li>React</li>
+                  <li>Foundry/Forge</li>
                   <li>Azkaban</li>
-                  <li>Jupyter Notebook</li>
-                  <li>Blockchain/Ethereum</li>
+                  <li>Salesforce APIs</li>
                 </ul>
               </div>
 
               <div className="skills-category">
-                <h3>Specializations</h3>
+                <h3>Cloud/Infrastructure</h3>
                 <ul className="skills-list">
-                  <li>Backend Development</li>
-                  <li>Machine Learning</li>
-                  <li>Data Engineering</li>
-                  <li>Database Management</li>
-                  <li>API Design</li>
-                  <li>System Architecture</li>
-                  <li>Performance Optimization</li>
+                  <li>AWS fundamentals</li>
+                  <li>Service-oriented architecture</li>
+                  <li>RESTful API design</li>
+                  <li>Monitoring/logging</li>
                 </ul>
               </div>
 
               <div className="skills-category">
-                <h3>Tools & Platforms</h3>
+                <h3>Practices</h3>
                 <ul className="skills-list">
-                  <li>Salesforce</li>
-                  <li>Pinata</li>
-                  <li>Foundry & Forge</li>
-                  <li>Amazon Internal Tools</li>
-                  <li>Firebase</li>
-                  <li>Git/Version Control</li>
+                  <li>Clean code</li>
+                  <li>Unit testing</li>
+                  <li>Code reviews</li>
+                  <li>Agile collaboration</li>
+                </ul>
+              </div>
+
+              <div className="skills-category">
+                <h3>Algorithms/Data Structures</h3>
+                <ul className="skills-list">
+                  <li>Complexity analysis</li>
+                  <li>Performance optimization</li>
                 </ul>
               </div>
             </div>
@@ -331,10 +302,14 @@ function App() {
         {activeSection === 'contact' && (
           <section id="contact">
             <h2>Contact Me</h2>
+            <div className="contact-info">
+              <p><strong>Location:</strong> Potomac, MD</p>
+              <p><strong>Phone:</strong> 240-506-8747</p>
+              <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/joycelyne-addo/" target="_blank" rel="noopener noreferrer">linkedin.com/in/joycelyne-addo</a></p>
+            </div>
             <p>
               I'm always open to discussing new opportunities, technology initiatives, 
-              and innovative projects. Feel free to reach out to me through my 
-              <a href="https://www.linkedin.com/in/joycelyne-addo/" target="_blank" rel="noopener noreferrer"> LinkedIn profile</a>.
+              and innovative projects. Feel free to reach out to me through any of the channels above.
             </p>
             <div className="contact-form">
               <div className="form-group">

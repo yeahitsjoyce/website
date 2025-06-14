@@ -1,17 +1,17 @@
 # Joycelyne Addo - Portfolio Website
 
-A modern, responsive portfolio website built with React, TypeScript, and Vite. This single-page application showcases my professional experience, projects, education, and skills as a Software Engineer.
+A modern, responsive portfolio website built with React, TypeScript, and Vite. This single-page application showcases my professional experience, projects, education, and skills as a Backend Software Engineer.
 
 ## 🌟 Features
 
 - **Interactive Navigation**: Smooth section switching with active state indicators
 - **Professional Sections**:
-  - About Me - Professional summary and background
-  - Experience - Detailed work history at Google, LinkedIn, Amazon, and Virtu Financial
-  - Projects - Featured projects including Spacify and Guess That Function
+  - About Me - Professional summary focused on backend development
+  - Experience - Detailed work history at Google (YouTube), LinkedIn, Amazon (Alexa), and Virtu Financial
+  - Projects - Featured projects including Guess That Function Website and Spacify
   - Education - Academic background from Cornell University
-  - Skills - Technical skills and competencies
-  - Contact - Professional contact information
+  - Skills - Comprehensive technical skills categorized by type
+  - Contact - Professional contact information with location and phone
 
 - **Modern Design**: Clean, professional styling with responsive layout
 - **Single Page Application**: Fast navigation without page reloads
@@ -70,17 +70,20 @@ src/
 
 ## 🎨 Key Highlights
 
-- **Responsive Design**: Optimized for desktop and mobile viewing
-- **Professional Content**: Showcases internship experiences at top tech companies
-- **Project Showcase**: Features technical projects with live demos and detailed descriptions
+- **Backend Focus**: Specialized in Python, Java, C++, database management, and API design
+- **Professional Content**: Showcases internship experiences at Google, LinkedIn, Amazon, and Virtu Financial
+- **Advanced Projects**: Features full-stack applications with backend services, databases, and cloud deployment
+- **Comprehensive Skills**: Covers programming languages, databases, cloud infrastructure, and best practices
 - **Clean Code**: Written in TypeScript with proper linting and code organization
 
 ## 📧 Contact
 
 **Joycelyne Addo**
+- Location: Potomac, MD
+- Phone: 240-506-8747
 - LinkedIn: [linkedin.com/in/joycelyne-addo](https://www.linkedin.com/in/joycelyne-addo/)
 - Portfolio: [yeahitsjoyce.github.io/website](https://yeahitsjoyce.github.io/website)
 
 ---
 
-*This portfolio website represents my journey as a Software Engineer and showcases the technical skills I've developed through internships at Google, LinkedIn, Amazon, and academic projects at Cornell University.*
+*This portfolio website represents my journey as a Backend Software Engineer and showcases the technical skills I've developed through internships at Google, LinkedIn, Amazon, and academic projects at Cornell University.*

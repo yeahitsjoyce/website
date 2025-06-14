@@ -11,7 +11,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Vite. T
   - Projects - Featured projects including Guess That Function Website and Spacify
   - Education - Academic background from Cornell University
   - Skills - Comprehensive technical skills categorized by type
-  - Contact - Professional contact information with location and phone
+  - Contact - Professional contact information with location
 
 - **Modern Design**: Clean, professional styling with responsive layout
 - **Single Page Application**: Fast navigation without page reloads
@@ -80,7 +80,6 @@ src/
 
 **Joycelyne Addo**
 - Location: Potomac, MD
-- Phone: 240-506-8747
 - LinkedIn: [linkedin.com/in/joycelyne-addo](https://www.linkedin.com/in/joycelyne-addo/)
 - Portfolio: [yeahitsjoyce.github.io/website](https://yeahitsjoyce.github.io/website)
 

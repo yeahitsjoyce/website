@@ -317,21 +317,6 @@ function App() {
               I'm always open to discussing new opportunities, technology initiatives, 
               and innovative projects. Feel free to reach out to me through any of the channels above.
             </p>
-            <div className="contact-form">
-              <div className="form-group">
-                <label htmlFor="name">Name</label>
-                <input type="text" id="name" placeholder="Your Name" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" placeholder="Your Email" />
-              </div>
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
-                <textarea id="message" placeholder="Your Message" rows={5}></textarea>
-              </div>
-              <button className="submit-btn">Send Message</button>
-            </div>
           </section>
         )}
       </main>

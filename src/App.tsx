@@ -119,6 +119,9 @@ function App() {
               <div className="project-header">
                 <h3>Guess That Function Website</h3>
                 <div className="project-links">
+                  <a href="https://guess-that-function.web.app/" target="_blank" rel="noopener noreferrer" className="project-link live-demo">
+                    🚀 Live Demo
+                  </a>
                   <span className="project-meta">Apr. 2025</span>
                 </div>
               </div>

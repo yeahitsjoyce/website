@@ -201,16 +201,20 @@ function App() {
               <p><strong>Bachelor of Science, Computer Science</strong></p>
               <h4>Relevant Coursework:</h4>
               <ul className="course-list">
-                <li>Discrete Structures and Algorithms</li>
+              <li>Foundations of Artificial Intelligence</li>
+                <li>Robot Learning</li>
+                <li>Machine Learning</li>
+                <li>Computer Vision</li>
+                <li>Random Signals in Communications and Signal Processing</li>
+                <li>Systems Programming</li>
                 <li>Computer System Organization and Programming</li>
+                <li>Language and Information</li>
+                <li>Discrete Structures</li>
                 <li>Object-Oriented Programming and Data Structures</li>
                 <li>Intro to Computing Using Python</li>
                 <li>Data Structures and Functional Programming</li>
                 <li>Analysis of Algorithms</li>
-                <li>Foundations of Artificial Intelligence</li>
                 <li>Mathematical Modeling</li>
-                <li>Random Signals in Communications and Signal Processing</li>
-                <li>Systems Programming</li>
               </ul>
             </div>
           </section>

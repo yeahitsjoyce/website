@@ -306,7 +306,7 @@ function App() {
           <section id="contact">
             <h2>Contact Me</h2>
             <div className="contact-info">
-              <p><strong>Location:</strong> Potomac, MD</p>
+              <p><strong>Email:</strong> jaa344@cornell.edu</p>
               <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/joycelyne-addo/" target="_blank" rel="noopener noreferrer">linkedin.com/in/joycelyne-addo</a></p>
             </div>
             <p>

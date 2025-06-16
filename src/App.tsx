@@ -199,7 +199,7 @@ function App() {
                   <a href="https://github.com/dbvargas/Pokemon-TCG-Team-Generator" target="_blank" rel="noopener noreferrer" className="project-link github">
                     📱 GitHub
                   </a>
-                  <span className="project-meta">Fall 2024</span>
+                  <span className="project-meta">Spring 2025</span>
                 </div>
               </div>
               <p className="project-meta">Intelligent Deck-Building System for Pokemon Trading Card Game</p>

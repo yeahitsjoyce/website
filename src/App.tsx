@@ -188,6 +188,50 @@ function App() {
                 </div>
               </div>
             </div>
+
+            <div className="project-item">
+              <div className="project-header">
+                <h3>Pokemon TCG Team Generator</h3>
+                <div className="project-links">
+                  <a href="http://4300showcase.infosci.cornell.edu:5264/" target="_blank" rel="noopener noreferrer" className="project-link live-demo">
+                    🚀 Live Demo
+                  </a>
+                  <a href="https://github.com/dbvargas/Pokemon-TCG-Team-Generator" target="_blank" rel="noopener noreferrer" className="project-link github">
+                    📱 GitHub
+                  </a>
+                  <span className="project-meta">Fall 2024</span>
+                </div>
+              </div>
+              <p className="project-meta">Intelligent Deck-Building System for Pokemon Trading Card Game</p>
+              <div className="project-description">
+                <p>
+                  Developed an intelligent deck-building system for the Pokemon Trading Card Game that generates competitive 
+                  and customized decks based on user-defined strategies, playstyles, and goals. Unlike existing tools that 
+                  primarily function as card search engines, this system provides strategic deck composition recommendations.
+                </p>
+                <div className="project-features">
+                  <h4>Key Features:</h4>
+                  <ul>
+                    <li>Built comprehensive Pokemon TCG card database with advanced search and filtering capabilities</li>
+                    <li>Implemented strategic deck generation algorithms supporting multiple playstyles: Strategy-focused, Balanced, and Swarm-focused approaches</li>
+                    <li>Created risk assessment system with Conservative, Balanced, and Aggressive deck compositions</li>
+                    <li>Developed deck saving and export functionality for user management and sharing</li>
+                    <li>Integrated similarity analysis to ranked competitive decks for strategic validation</li>
+                  </ul>
+                </div>
+                <div className="project-tech">
+                  <h4>Technologies Used:</h4>
+                  <div className="tech-tags">
+                    <span className="tech-tag">Python</span>
+                    <span className="tech-tag">Flask</span>
+                    <span className="tech-tag">MySQL</span>
+                    <span className="tech-tag">HTML/CSS</span>
+                    <span className="tech-tag">JavaScript</span>
+                    <span className="tech-tag">SQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         )}
 
